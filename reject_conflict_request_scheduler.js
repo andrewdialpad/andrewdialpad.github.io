@@ -1,6 +1,6 @@
-import BaseRequestScheduler from './base_request_scheduler';
-import iframeClientUtil from './iframe_client_util';
-import iframeConstants from './iframe_constants';
+import BaseRequestScheduler from './base_request_scheduler.js';
+import iframeClientUtil from './iframe_client_util.js';
+import iframeConstants from './iframe_constants.js';
 
 /**
  * The default implementation of the request scheduler. If multiple messages are in flight

@@ -1,5 +1,5 @@
-import BaseRequestScheduler from './base_request_scheduler';
-import iframeConstants from './iframe_constants';
+import BaseRequestScheduler from './base_request_scheduler.js';
+import iframeConstants from './iframe_constants.js';
 
 /**
  * Implementation of the request scheduler using a single queue. Requests (postMessages) are
