@@ -2,7 +2,10 @@ import DialpadClient from './dialpad_client.js'
 
 const client = new DialpadClient({env: 'sandbox'})
 client.init().then(response => {
-  client.getCurrentUser().then((response) => {
-    console.log(response)
+  client.getCurrentContact().then(response => {
+    document.getElementById('contact').innerText = response.first_name
+  })
+  client.getCurrentUser().then(response => {
+    document.getElementById('name').innerText = response.first_name
   })
 })
