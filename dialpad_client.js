@@ -1,7 +1,7 @@
-import urlUtil from '../../utils/url_util';
-import RejectConflictRequestScheduler from './reject_conflict_request_scheduler';
-import QueueRequestScheduler from './queue_request_scheduler';
-import iframeClientUtil from './iframe_client_util';
+import urlUtil from './url_util.js';
+import RejectConflictRequestScheduler from './reject_conflict_request_scheduler.js';
+import QueueRequestScheduler from './queue_request_scheduler.js';
+import iframeClientUtil from './iframe_client_util.js';
 
 const sandboxUri = 'https://dialpadbeta.com';
 const prodUri = 'https://dialpad.com';
