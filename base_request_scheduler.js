@@ -1,4 +1,4 @@
-import { v4 } from 'https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js';
+import { v4 } from 'https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuidv4.min.js';
 import iframeClientUtil from './iframe_client_util.js';
 import CallbackRegistry from './callback_registry.js';
 import iframeConstants from './iframe_constants.js';
