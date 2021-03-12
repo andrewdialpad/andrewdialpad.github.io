@@ -1,4 +1,4 @@
-import urlUtil from './url_util.js';
+import { isAllowedOrigin } from './url_util.js';
 import RejectConflictRequestScheduler from './reject_conflict_request_scheduler.js';
 import QueueRequestScheduler from './queue_request_scheduler.js';
 import iframeClientUtil from './iframe_client_util.js';
@@ -146,7 +146,7 @@ class DialpadClient {
 
   _checkAllowedUrl (requestOrigin) {
     return ALLOWED_ORIGINS.some(allowedOrigin => {
-      return urlUtil.isAllowedOrigin(requestOrigin, allowedOrigin);
+      return isAllowedOrigin(requestOrigin, allowedOrigin);
     });
   }
 }
