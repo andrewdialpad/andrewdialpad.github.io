@@ -3,8 +3,8 @@
     <meta http-equiv='cache-control' content='no-cache'> 
     <meta http-equiv='expires' content='0'> 
     <meta http-equiv='pragma' content='no-cache'>
-    <script src="dialpad_client.js"></script>
     <script>
+      import DialpadClient from './dialpad_client.js'
       const client = new DialpadClient()
       client.init().then(response => {
         client.init().then(response => {
