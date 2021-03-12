@@ -1,4 +1,4 @@
-import DialpadClient from './dialpad_client'
+import DialpadClient from './dialpad_client.js'
 
 const client = new DialpadClient()
 client.init().then(response => {
